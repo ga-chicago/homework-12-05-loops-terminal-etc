@@ -40,3 +40,9 @@ for (let i=0; i < 1000; i++) {
 for (let a = 999; a > 0; a--) {
     console.log(a);
 }
+
+for (let b=1; b < 10; b++) {
+    console.log("The value of i is: " + b + " of 10");
+}
+
+// Section 5: 
