@@ -7,7 +7,7 @@
 Title: Terminal & Loop Homework<br>
 Duration: 3 hrs approx.<br>
 Creator: Thom Page <br>
-Modified by: Kristyn Bryan<br> 
+Modified by: Kristyn Bryan<br>
 Adapted by: Reuben Ayres<br>
 Topics: Terminal, boolean expressions, reading code, while loops, for loops<br>
 
@@ -63,13 +63,13 @@ Good luck!
   const e = 'Kevin';
 ```
 
--  a \_\_ b;
--  c \_\_ d;
--  'Name' \_\_ 'Name';
--  a \_\_ b \_\_ c;
--  a \_\_ a \_\_ d;
--  e \_\_ 'Kevin';
--  48 \_\_ '48';
+-  console.log(a < b)
+-  c > d;
+-  'Name' ==='Name';
+-  a < b < c;
+-  a === a < d;
+-  e == 'Kevin';
+-  48 == '48';
 
 <br>
 <hr>
