@@ -45,4 +45,82 @@ for (let b=1; b < 10; b++) {
     console.log("The value of i is: " + b + " of 10");
 }
 
-// Section 5: 
+// Section 5:
+/*
+Part 1:
+mkdir homework_part_2
+cd homework_part_2/
+mkdir death_star
+touch darth_vader.txt princess_leia.txt storm_trooper.txt
+mkdir galaxy_far_far_away
+ cd galaxy_far_far_away/
+ mkdir tatooine
+ cd tatooine/
+ touch luke.txt ben_kenobi.txt
+ mv darth_vader.txt death_star/         fixed mistake forgot to cd into folder
+  mv princess_leia.txt death_star/       fixed mistake forgot to cd into folder
+  cd galaxy_far_far_away/tatooine/
+  mkdir millenium_falcon
+  touch han_solo.txt chewbaca.txt
+   mv han_solo.txt millenium_fallcon/           fixed mistake forgot to cd into folder
+    mv chewbaca.txt millenium_fallcon/          fixed mistake forgot to cd into folder
+
+Part 2:
+mv ben_kenobi.txt obi_wan.txt
+
+Part 2:
+mv storm_trooper.txt death_star/       //messed up fixed it
+cd death_star/
+cp storm_trooper.txt ../galaxy_far_far_away/tatooine/
+
+Part 3:
+cd galaxy_far_far_away/tatooine/
+cd tatooine/
+mv luke.txt millenium_falcon/
+mv obi_wan.txt millenium_falcon/
+cd ../../
+mv galaxy_far_far_away/tatooine/millenium_fallcon/ galaxy_far_far_away/
+mv galaxy_far_far_away/millenium_fallcon/ death_star/
+cd death_star/
+mv princess_leia.txt millenium_fallcon/
+cd millenium_fallcon/
+
+Part 4:
+rm obi_wan.txt
+
+Part 5:
+cd ../../
+ cd galaxy_far_far_away/
+ mkdir yavin_4
+  mv death_star/millenium_fallcon/ galaxy_far_far_away/yavin_4/
+  cd galaxy_far_far_away/yavin_4/
+  mkdir x_wing
+   cd millenium_fallcon/
+   mv princess_leia.txt ../../   // mess up // read it as move it into galaxy..
+   cd ../../
+   mv galaxy_far_far_away/yavin_4/millenium_fallcon/luke.txt ../x-wing       // accidently deleted
+    mv galaxy_far_far_away/yavin_4/millenium_fallcon/ ../../                 //same again
+cd death_star/
+mv darth_vader.txt tie_fighter_1
+cp storm_trooper.txt tie_fighter_2
+cp storm_trooper.txt tie_fighter_3
+mv tie_fighter_1 ../galaxy_far_far_away/
+mv tie_fighter_2 ../galaxy_far_far_away/
+mv tie_fighter_3 ../galaxy_far_far_away/
+
+Part 6:
+rm -r tie_fighter_2
+rm -r tie_fighter_3
+
+Part 7:
+cd yavin_4/x_wing/
+touch the_force.txt
+cd ../../../
+rm -r death_star/
+
+
+
+
+
+
+*/
